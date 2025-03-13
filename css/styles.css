@@ -3,6 +3,8 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
 /* Styles for the body */
 
 body {
@@ -19,6 +21,7 @@ body {
 
 .resume-main {
 	background-color: #fffefc;
+	font-family: "Sigmar", serif;
 }
 
 .resume-aside {
@@ -48,4 +51,12 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+h1 {
+	 font-family: "Playwrite IT Moderna", serif;
+}
+
+.change-color-level {
+	background-color: pink;
 }
